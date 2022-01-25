@@ -1,0 +1,12 @@
+body{
+  background-image: url('./images/background.jfif');
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+
+body h1{
+  text-align: center;
+  color:#ffffff;
+  font-size: 45px;
+}

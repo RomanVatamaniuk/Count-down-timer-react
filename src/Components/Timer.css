@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.timer{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.timer p {
+    color:#fff;
+    font-size: 150px;
+    margin: -25px;
+}
+.timer span{
+    color: #fff;
+    font-size: 30px;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    justify-content: center;
+    flex-direction: column;
+}
+.time{
+    margin: 0 50px;
+    text-align: center;
+}

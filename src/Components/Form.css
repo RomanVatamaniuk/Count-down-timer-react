@@ -1,0 +1,45 @@
+form{
+    margin:50px 0;
+    width:800px;
+    height:50;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:70%;
+    left: 23%;
+}
+.input{
+    width:150px;
+    height:50px;
+    outline:none;
+    background-color: transparent;
+    color: #fff;
+    border:3px solid #fff;
+    font-size: 30px;
+}
+.setter{
+    height: 50px;
+    width: 100px;
+    outline:none;
+    background-color: transparent;
+    color: #fff;
+    border:3px solid #fff;
+    font-size: 20px;
+    position: relative;
+    transition: .3;
+}
+.text{
+    width:370px;
+    color:#fff;
+    font-size: 15px;
+    margin:0 3px 3px 3px;
+}
+.text::placeholder{
+    color:#fff;
+}
+
+.setter:hover{
+    background-color: #fff;
+    color:#000;
+    transition: .3;
+}
